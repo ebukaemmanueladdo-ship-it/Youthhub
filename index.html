@@ -3,29 +3,143 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Youthhub</title>
+  <title>YouthHub</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fb;
+      color: #172033;
+    }
+
+    header {
+      background: #0b1f3a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+
+    header p {
+      margin: 8px 0 0;
+      color: #cbd5e1;
+    }
+
+    .hero {
+      padding: 50px 20px;
+      text-align: center;
+      background: white;
+    }
+
+    .hero h2 {
+      font-size: 32px;
+      margin-bottom: 12px;
+    }
+
+    .hero p {
+      font-size: 17px;
+      color: #5b6472;
+    }
+
+    .buttons {
+      margin-top: 25px;
+    }
+
+    button {
+      border: none;
+      padding: 14px 22px;
+      margin: 6px;
+      border-radius: 8px;
+      background: #1769ff;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .section {
+      padding: 35px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .section h2 {
+      text-align: center;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+      margin-top: 25px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      margin-top: 0;
+    }
+
+    footer {
+      background: #0b1f3a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+  </style>
 </head>
+
 <body>
 
-  <h1>Welcome to Youthhub</h1>
+  <header>
+    <h1>YouthHub</h1>
+    <p>Opportunities. Skills. Growth.</p>
+  </header>
 
-  <p>Find opportunities. Learn new skills. Build your future.</p>
+  <section class="hero">
+    <h2>Build Your Future With YouthHub</h2>
+    <p>Discover opportunities, learn new skills, and grow your future.</p>
 
-  <h2>What can you do on Youthhub?</h2>
+    <div class="buttons">
+      <button>Find Opportunities</button>
+      <button>Learn New Skills</button>
+    </div>
+  </section>
 
-  <ul>
-    <li>Find opportunities</li>
-    <li>Learn new skills</li>
-    <li>Discover useful resources</li>
-    <li>Connect with other young people</li>
-  </ul>
+  <section class="section">
+    <h2>What Can You Do on YouthHub?</h2>
 
-  <h2>Start Your Journey</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>💼 Find Opportunities</h3>
+        <p>Discover jobs, internships, scholarships and other opportunities.</p>
+      </div>
 
-  <p>Explore Youthhub and discover opportunities to grow.</p>
+      <div class="card">
+        <h3>📚 Learn Skills</h3>
+        <p>Learn useful skills that can help you become more valuable.</p>
+      </div>
 
-  <button>Find Opportunities</button>
-  <button>Learn New Skills</button>
+      <div class="card">
+        <h3>🚀 Grow</h3>
+        <p>Connect your skills with opportunities and build your future.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 YouthHub. Built for young people.</p>
+  </footer>
 
 </body>
-</html>
+  </html>
